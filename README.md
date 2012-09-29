@@ -1,12 +1,12 @@
 # Capistrano::Db
 
-TODO: Write a gem description
+Helps you out to sync up you datbases between your local and server machines. 
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'capistrano-db'
+    gem 'capistrano_db'
 
 And then execute:
 
@@ -14,11 +14,13 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install capistrano-db
+    $ gem install capistrano_db
 
 ## Usage
 
-TODO: Write usage instructions here
+Add `require 'capistrano_db/tasks` into your `deploy.rb`
+
+Then you can use `cap db:pull` and `cap db:push` commands. Enjoy!
 
 ## Contributing
 
