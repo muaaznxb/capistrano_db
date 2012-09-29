@@ -4,9 +4,9 @@ require "capistrano_db/version"
 Gem::Specification.new do |gem|
   gem.authors       = ["nazarhussain"]
   gem.email         = ["nazarhussain@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Helps you out to sync up you datbases between your local and server machines.}
+  gem.summary       = %q{Helps you out to sync up you datbases between your local and server machines.}
+  gem.homepage      = "nazarhussain.com"
 
   gem.files         = `git ls-files`.split("\n")
   #gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
