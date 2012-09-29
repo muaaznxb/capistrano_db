@@ -22,6 +22,10 @@ Add `require 'capistrano_db/tasks` into your `deploy.rb`
 
 Then you can use `cap db:pull` and `cap db:push` commands. Enjoy!
 
+## Thanks
+
+Thanks to Sébastien Gruhier, I used the idea and inital code from https://github.com/sgruhier/capistrano-db-tasks
+
 ## Contributing
 
 1. Fork it
